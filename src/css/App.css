@@ -1,0 +1,50 @@
+* {box-sizing: border-box;}
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  padding-top:5px;
+  text-align: center;
+  background: #FFFADB;
+  color: blue;
+}
+  .App {
+/* Required properties */
+    width: 96%;
+    height: calc(100vh - 47px);
+    margin: auto;
+    color: #000;
+    background: #FFFADB;
+    overflow: auto;
+    border: 1px solid #000;
+    border-top: 1px solid #FFFADB;
+/* project properties */
+  }
+    .load {width: 10%;}
+    .list_choice {
+      list-style: none;
+      padding: 0;
+    }
+      .list_li:hover {color: blue; cursor: pointer;}
+      .err {color: rgb(243, 7, 7); font-size: large;}
+    .error {
+      width: 400px;
+      margin: auto;
+      padding: 10px;
+      background: #d89cb5;
+      color: #72163e;
+      text-align: center;
+    }
+      .btn {
+        background: #000;
+        color: #FFFADB;
+        border-radius: 5px;
+      }
+      .btn:hover {cursor: pointer;}
+    .detail_result {color: blue;}
+
